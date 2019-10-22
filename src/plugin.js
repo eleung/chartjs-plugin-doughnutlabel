@@ -28,7 +28,7 @@ function drawDoughnutLabel(chart, options) {
 
 		// Calculate the adjustment ratio to fit the text area into the doughnut inner circle
 		var hypotenuse = Math.sqrt(Math.pow(textAreaSize.width, 2) + Math.pow(textAreaSize.height, 2));
-		var innerDiameter = (chart.innerRadius * 2) + (options.padding || 0);
+		var innerDiameter = (chart.innerRadius * 2) - (options.padding || 0);
 		var fitRatio = innerDiameter / hypotenuse;
 
 		// Adjust the font if necessary and recalculate the text area after applying the fit ratio
