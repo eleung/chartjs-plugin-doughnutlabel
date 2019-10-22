@@ -1,11 +1,11 @@
 {
-  "name": "chartjs-plugin-doughnutlabel",
+  "name": "chartjs-plugin-doughnutlabel2",
   "version": "2.0.3",
   "description": "Chart.js plugin for doughnut chart to display lines of text in the center",
   "main": "dist/chartjs-plugin-doughnutlabel.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ciprianciurea/chartjs-plugin-doughnutlabel.git"
+    "url": "https://github.com/eleung/chartjs-plugin-doughnutlabel.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

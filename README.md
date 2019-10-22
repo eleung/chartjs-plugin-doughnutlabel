@@ -1,6 +1,6 @@
 # Chart.js Doughnut plugin to allow for lines of text in the middle
 
-Chart.js plugin module that allows to display multiple lines of text centered in the middle area of the doughnut charts 
+Chart.js plugin module that allows to display multiple lines of text centered in the middle area of the doughnut charts
 
 ## Demo
 Have a look at the [Demo page](https://ciprianciurea.github.io/chartjs-plugin-doughnutlabel/samples/index.html).
@@ -16,10 +16,10 @@ Have a look at the [Demo page](https://ciprianciurea.github.io/chartjs-plugin-do
 
 Install through npm:
 ```
-npm install --save chartjs-plugin-doughnutlabel
+npm install --save chartjs-plugin-doughnutlabel2
 ```
 
-## Usage 
+## Usage
 
 ```
 var myDoughnutChart = new Chart(ctx, {
@@ -58,7 +58,7 @@ var myDoughnutChart = new Chart(ctx, {
           }
         ]
       }
-    }		
+    }
   }
 });
 
@@ -69,7 +69,7 @@ var getTotal = function(myDoughnutChart) {
 ```
 
 ### Usage without a module bundler
-The plugin can be manually downloaded from the 
+The plugin can be manually downloaded from the
 [Releases page on GitHub!](https://github.com/ciprianciurea/chartjs-plugin-doughnutlabel/releases)
 ```
 <script src="chartjs-plugin-doughnutlabel.js"></script>
